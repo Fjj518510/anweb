@@ -1,0 +1,805 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #bbe7ff;
+    opacity: 1;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+    .top-nav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 0 10px;
+        font-weight: bold;
+    }
+    h2{
+    margin-top:80px;
+
+    }
+
+
+.grid-item1 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/Ps.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item1 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item1 p {
+        margin-top: 240px;
+    }
+
+.grid-item2 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/Ai.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item2 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item2 p {
+        margin-top: 240px;
+    }
+
+.grid-item3 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/Ae.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item3 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item3 p {
+        margin-top: 240px;
+    }
+
+.grid-item4 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/premiere.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item4 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item4 p {
+        margin-top: 240px;
+    }
+
+.grid-item5 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/animate.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item5 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item5 p {
+        margin-top: 240px;
+    }
+
+.grid-item6 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/Au.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item6 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item6 p {
+        margin-top: 240px;
+    }
+
+.grid-item7 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/Ch.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item7 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item7 p {
+        margin-top: 240px;
+    }
+
+.grid-item8 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/Substance.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item8 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item8 p {
+        margin-top: 240px;
+    }
+
+.grid-item9 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/3dMax.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item9 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item9 p {
+        margin-top: 240px;
+    }
+
+.grid-item10 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/maya.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item10 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item10 p {
+        margin-top: 240px;
+    }
+
+.grid-item11 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/nuke.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item11 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item11 p {
+        margin-top: 240px;
+    }
+
+.grid-item12 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/DaVinci.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item12 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item12 p {
+        margin-top: 240px;
+    }
+
+.grid-item13 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/C4D.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item13 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item13 p {
+        margin-top: 240px;
+    }
+
+.grid-item14 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/Blender.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item14 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item14 p {
+        margin-top: 240px;
+    }
+
+.grid-item15 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/zbrush.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item15 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item15 p {
+        margin-top: 240px;
+    }
+
+.grid-item16 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/spine.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item16 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item16 p {
+        margin-top: 240px;
+    }
+
+.grid-item17 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/tbh.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item17 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item17 p {
+        margin-top: 240px;
+    }
+
+.grid-item18 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/Unity3D.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item18 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item18 p {
+        margin-top: 240px;
+    }
+
+.grid-item19 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/unreal-engine-grey.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item19 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item19 p {
+        margin-top: 240px;
+    }
+
+.grid-item20 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/MD.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item20 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item20 p {
+        margin-top: 240px;
+    }
+
+.grid-item21 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/vray.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item21 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item21 p {
+        margin-top: 240px;
+    }
+
+.grid-item22 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/keyshot.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item22 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item22 p {
+        margin-top: 240px;
+    }
+
+.grid-item23 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/arnold.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item23 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item23 p {
+        margin-top: 240px;
+    }
+
+.grid-item24 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/maxwell.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item24 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item24 p {
+        margin-top: 240px;
+    }
+
+.grid-item25 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/Redshift.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item25 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item25 p {
+        margin-top: 240px;
+    }
+
+.grid-item26 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/Octane.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item26 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item26 p {
+        margin-top: 240px;
+    }
+
+.grid-item27 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/D5.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item27 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item27 p {
+        margin-top: 240px;
+    }
+
+.grid-item28 {
+    width: 180px;
+    height: 180px;
+    background-color: #ddd;
+    background-image: url(../ico/Corona.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .grid-item28 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-item28 p {
+        margin-top: 240px;
+    }
+
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px; /* Add margin-top to create space between footer and content */
+}
+
+
+/* Media Queries */
+.grid-container {
+    display: grid;
+    gap: 30px; /*水平间距*/
+    row-gap: 50px; /*垂直间距*/
+    justify-content: center;
+    margin-top: 30px;
+}
+
+[class^="grid-item"] {
+    width: 180px; /* 100%宽度，占满一行 */
+    max-width: 400px; /* 设置最大宽度，防止网格过宽 */
+    margin: 0 auto; /* 居中显示 */
+    font-size: 14px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 768px) {
+    .top-nav a {
+        font-size: 14px;
+        margin: 0 1px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 小于768px时每行有两个网格 */
+        gap: 20px; /*水平间距*/
+        row-gap: 50px; /*垂直间距*/
+        justify-content: center;
+    }
+    h2{font-size:18px;}
+    [class^="grid-item"] {
+        height: 140px;
+        width: 140px;
+    }
+    [class^="grid-item"] p{margin-top:200px;}
+        .slider-container {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+            margin-top: 50px; /* Adjust the margin-top to give space for the top navigation */
+            height: auto;
+        }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        background-color: none;
+        padding: 0px;
+        z-index: 1;
+        margin-top: 10px;
+        width: auto;
+    }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+        }
+
+            .navbar ul li {
+                margin-right: -10px;
+            }
+
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            font-size: 14px;
+            text-align: center;
+        }
+}
+
+.footer p {
+    display: block;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr); /* 大于768px时每行有四个网格 */
+    }
+}

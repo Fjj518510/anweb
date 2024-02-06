@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #bbe7ff;
+    opacity: 1;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+    .top-nav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 0 10px;
+        font-weight: bold;
+    }
+
+h2 {
+    margin-top: 120px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    gap: 30px; /*水平间距*/
+    row-gap: 120px; /*垂直间距*/
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.grid-item1 {
+    width: 180px;
+    height: 120px;
+    background-color: #bbe7ff;
+    /*background-image: url(../ico/PS.png);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+    .grid-item1 ul {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        list-style-type: none;
+        margin-top: 260px;
+        width: 180px;
+        height: 100px
+    }
+
+    .grid-item1 ul li {
+        margin: 2px;
+        margin-left:-35px;
+        list-style: none;
+
+        
+    }
+.centered-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+
+.footer {
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px; /* Add margin-top to create space between footer and content */
+      
+}
+.grid-container {
+    display: grid;
+    gap: 30px; /*水平间距*/
+    row-gap: 120px; /*垂直间距*/
+    justify-content: center;
+    margin-top: 20px;
+}
+
+[class^="grid-item"] {
+    width: 180px; /* 100%宽度，占满一行 */
+    max-width: 400px; /* 设置最大宽度，防止网格过宽 */
+    margin: 0 auto; /* 居中显示 */
+    font-size: 14px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 768px) {
+    .top-nav a {
+        font-size: 14px;
+        margin: 0 1px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 小于768px时每行有两个网格 */
+        gap: 20px; /*水平间距*/
+        row-gap: 140px; /*垂直间距*/
+        justify-content: center;
+    }
+
+    [class^="grid-item"] {
+        height: 120px;
+        width: 160px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .centered-text  {
+        font-size:20px;
+    }
+
+ }
+
+.footer p {
+    display: block;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr); /* 大于768px时每行有四个网格 */
+    }
+}

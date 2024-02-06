@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    margin: 0;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #bbe7ff;
+    opacity: 1;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+    .top-nav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 0 10px;
+        font-weight: bold;
+    }
+
+.content-body {
+    margin: 0 auto;
+    max-width: 60%;
+    overflow: hidden;
+}
+
+
+
+.content {
+    margin-top: 100px;
+}
+
+    .content ul {
+        list-style-type: none;
+        margin-left: -40px;
+
+    }
+
+
+.content_2,
+.content_3 {
+    margin-top: 20px;
+}
+
+hr {
+    width: 100%;
+    border-color: #ddd;
+}
+img {
+    display: block; /* 防止图片底部出现空白间隙 */
+    margin: 0 auto; /* 设置左右边距为auto，实现水平居中 */
+}
+video {
+    display: block; /* 防止图片底部出现空白间隙 */
+    margin: 0 auto; /* 设置左右边距为auto，实现水平居中 */
+}
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 600px) {
+
+    .top-nav a {
+        font-size: 14px;
+        margin: 0 1px;
+    }
+
+    video {
+        height: auto;
+        width: auto;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}

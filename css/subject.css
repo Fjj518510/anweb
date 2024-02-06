@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    margin: 0;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #bbe7ff;
+    opacity: 1;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+    .top-nav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 0 10px;
+        font-weight: bold;
+    }
+
+.content-body {
+    margin: 0 auto;
+    max-width: 60%;
+    overflow: hidden;
+}
+
+.course-pic {
+    float: left;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+    .course-pic img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+.content {
+    margin-top: 100px;
+}
+
+.course-info h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.course-info ul {
+    margin: 0;
+    padding: 0;
+}
+
+    .course-info ul li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+        .course-info ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+.content_2,
+.content_3 {
+    margin-top: 20px;
+}
+
+hr {
+    width: 100%;
+    border-color: #ddd;
+}
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 330px;
+}
+/* Media Queries */
+
+
+@media screen and (max-width: 768px) {
+
+    .top-nav a {
+        font-size: 14px;
+        margin: 0 1px;
+    }
+
+
+
+    .footer p {
+        font-size: 12px;
+    }
+}
